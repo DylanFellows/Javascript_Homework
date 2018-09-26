@@ -1,13 +1,26 @@
-.padContent {
-    margin-left: 8%;
+html, body {
+    height: 100%;
 }
 
-.menuDiv {
-    background-color: rgb(84, 78, 78);
-    height: 100%;
-    position: fixed;
+body {
+    margin: 0;
 }
 
 href {
     color: white;
+}
+
+.menuDiv {
+    background-color: black;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 22%;
+}
+
+.contentDiv {
+    margin-left: 22%;
+    overflow: auto;
+    width: 78%;
 }
